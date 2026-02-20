@@ -4,6 +4,6 @@ version: 2
 sources:
   - name: source_salary_survey
     database: VINAY_GAUTAM
-    sachema: INPUT_SURVEY
-    table:
+    schema: INPUT_SURVEY
+    tables:
       - name: SURVEY
