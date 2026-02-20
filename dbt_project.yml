@@ -1,6 +1,6 @@
 name: 'salary_survey'
 version: 1.0.0
-config_version: 2
+config-version: 2
 
 models:
   salary_survey:
