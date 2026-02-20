@@ -2,7 +2,7 @@
 version: 2
 
 sources:
-  - NAME: source_salary_survey
+  - name: source_salary_survey
     database: VINAY_GAUTAM
     sachema: INPUT_SURVEY
     table:
