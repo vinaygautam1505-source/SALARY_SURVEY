@@ -2,11 +2,11 @@ name: 'salary_survey'
 version: 1.0.0
 config_version: 2
 
-  models:
-    salary_survey:
-      staging:
-        +materialized: view
-        +on_schema_change: sync_all_columns
-      mart:
-        +materialized: view
-        +on_schema_change: sync_all_columns
+models:
+  salary_survey:
+    staging:
+      +materialized: view
+      +on_schema_change: sync_all_columns
+    mart:
+      +materialized: view
+      +on_schema_change: sync_all_columns
