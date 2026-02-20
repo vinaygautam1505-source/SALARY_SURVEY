@@ -3,7 +3,7 @@
 version: 2
 
 models: 
-  - name: stg_salary_survey
+  - name: dim_salary_survey
     description: "cleaned salary_survey staging view"
 
     columns: 
