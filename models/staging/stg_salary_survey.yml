@@ -1,0 +1,98 @@
+
+
+version: 2
+
+models: 
+  - name: stg_salary_survey
+    description: "cleaned salary_survey staging view"
+
+    columns: 
+      - name: age
+        description: "employee current age"
+        tests:
+          - not_null
+
+      - name: gender
+        description: "employee gender"
+        tests:
+          - not_null
+
+      - name: race
+        description: "enployee native race"
+        tests:
+          - not_null
+
+      - name: education
+        description: "eployee hignest education"
+        tests:
+          - not_null
+
+      - name: work_city
+        description: "eployee current work city"
+        tests:
+          - not_null
+
+      - name: work_state
+        description: "eployee current work state"
+        tests:
+          - not_null
+
+      - name: work_country
+        description: "eployee current work country"
+        tests:
+          - not_null
+
+      - name: industry
+        description: "eployee current work industry"
+        tests:
+          - not_null
+
+      - name: job_title
+        description: "eployee current job title"
+        tests:
+          - not_null
+
+      - name: additional_job_title
+        description: "eployee current additional job description"
+        tests:
+          - not_null
+
+      - name: currency
+        description: "currency type"
+        tests:
+          - not_null
+
+      - name: other_currency
+        description: "other currency type"
+        tests:
+          - not_null
+
+      - name: total_salary
+        description: "employee total salary"
+        tests:
+          - not_null
+
+      - name: compensation
+        description: "employee other compensation"
+        tests:
+          - not_null
+
+      - name: income_comments
+        description: "employee other income description"
+        tests:
+          - not_null
+
+      - name: total_experience
+        description: "employee total work experience"
+        tests:
+          - not_null
+
+      - name: current_field_experience
+        description: "employee current field work experience"
+        tests:
+          - not_null
+
+
+
+
+       
