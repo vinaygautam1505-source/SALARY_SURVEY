@@ -1,8 +1,0 @@
-version: 2
-
-SOURCES:
-  - NAME: source_salary_survey
-    database: VINAY_GAUTAM
-    sachema: INPUT_SURVEY
-    table:
-      - name: SURVEY
