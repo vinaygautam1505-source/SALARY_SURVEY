@@ -1,0 +1,8 @@
+version: 2
+
+SOURCES:
+  - NAME: SOURCE_SALARY_SURVEY
+    database: VINAY_GAUTAM
+    sachema: INPUT_SURVEY
+    table:
+      - name: SURVEY
