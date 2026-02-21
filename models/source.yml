@@ -3,7 +3,7 @@ version: 2
 
 sources:
   - name: source_salary_survey
-    database: VINAY_GAUTAM
+    database: SALARY_SURVEY
     schema: INPUT_SURVEY
     tables:
       - name: SURVEY
