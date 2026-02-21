@@ -1,1 +1,1 @@
-select * from {{ sorurce('source_salary_survey', 'SURVEY') }}
+select * from {{ source('source_salary_survey', 'SURVEY') }}
